@@ -1210,6 +1210,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94f6618a0da65fa45b24d5105d5d8422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1801802783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1801802775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
+--- !u!114 &1801802784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1801802775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 0.5
+  attackDamage: 10
 --- !u!1001 &1874097640
 Prefab:
   m_ObjectHideFlags: 0
@@ -1249,6 +1278,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114749966779554848, guid: 2c9ae4dd9938d2d41b25dad050f07f5c,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 813259669}
+    - target: {fileID: 114749966779554848, guid: 2c9ae4dd9938d2d41b25dad050f07f5c,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1500516055}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c9ae4dd9938d2d41b25dad050f07f5c, type: 2}
   m_IsPrefabParent: 0
